@@ -270,6 +270,141 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://www.enderstore.cn/2017/05/11/测试环境准备/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ender Mei">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ender">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/05/11/测试环境准备/" itemprop="url">
+                  测试环境准备
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-11T14:32:05+08:00">
+                2017-05-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/05/11/测试环境准备/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/05/11/测试环境准备/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>对于测试人员来说，类似java这样的编译语言进行更新和发布时比较麻烦的，所以最好建立一个半自动或者全自动的更新及发布环境。<br>这里使用的就是git+maven+docker（tomcat）的快速发布结构，利用git更新代码，maven进行打包和发布。</p>
+<p>###事先准备<br>整套环境原则上都是在Linux环境下运行，所以需要准备一台安装了Linux操作系统的设备。Linux可以使用自己用的惯的发行版本，比如Centos或者Ubuntu等<br>然后就是几个关键软件的安装下面会分别介绍每个工具的安装。</p>
+<p>###Docker的安装<br>docker是现在非常流行的轻量级虚拟环境，可以有效的隔离你的测试环境。<br>一般来说Centos和Ubuntu可以通过apt或者yum通过支持的软件库直接安装对应的软件，但是这里不建议这么做</p>
+<ul>
+<li>安装的版本未必是你想要的</li>
+<li>实际配置文件的保存位置比较难找</li>
+<li>如果不用了删除也不太方便</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://www.enderstore.cn/2017/05/05/MongoDB教程/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -725,7 +860,7 @@
       
         
           
-            <h2 id="maven的有什么用"><a href="#maven的有什么用" class="headerlink" title="maven的有什么用"></a>maven的有什么用</h2><p>项目管理和构建自动化工具<br>顾名思义可以用来管理 </p>
+            <h2 id="maven的有什么用"><a href="#maven的有什么用" class="headerlink" title="maven的有什么用"></a>maven的有什么用</h2><p>项目管理和构建自动化工具<br>顾名思义可以用来管理项目的结构<br>并且可以选择性的打包和发布</p>
 
           
         
@@ -1199,7 +1334,7 @@
         
           
             <p>你是我最重要的决定<br><img src="/img/psb.jpg" alt="登记纪念"></p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=25640783&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=25640783&auto=0&height=66"></iframe>
 
 
 
@@ -1569,7 +1704,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1587,7 +1722,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
